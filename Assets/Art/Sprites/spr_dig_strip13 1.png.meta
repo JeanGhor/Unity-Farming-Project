@@ -1,0 +1,494 @@
+fileFormatVersion: 2
+guid: a8cdb0b8ff6505e46bf43600f491b596
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 3232412852849202192
+    second: spr_dig_strip13 1_0
+  - first:
+      213: -6757505465251090517
+    second: spr_dig_strip13 1_1
+  - first:
+      213: 8153987927832891003
+    second: spr_dig_strip13 1_2
+  - first:
+      213: 8743794074117153330
+    second: spr_dig_strip13 1_3
+  - first:
+      213: 3176206103733234032
+    second: spr_dig_strip13 1_4
+  - first:
+      213: -3258257665437162016
+    second: spr_dig_strip13 1_5
+  - first:
+      213: -5527355646077220582
+    second: spr_dig_strip13 1_6
+  - first:
+      213: -3652765737955933606
+    second: spr_dig_strip13 1_7
+  - first:
+      213: -6806353596474299838
+    second: spr_dig_strip13 1_8
+  - first:
+      213: 7298065497368933198
+    second: spr_dig_strip13 1_9
+  - first:
+      213: 8776967352335562229
+    second: spr_dig_strip13 1_10
+  - first:
+      213: 8139884236181390518
+    second: spr_dig_strip13 1_11
+  - first:
+      213: 9089835782386596062
+    second: spr_dig_strip13 1_12
+  - first:
+      213: -4526153897845759038
+    second: spr_dig_strip13 1_13
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: spr_dig_strip13 1_0
+      rect:
+        serializedVersion: 2
+        x: 38
+        y: 88
+        width: 23
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 014db751d56dbdc20800000000000000
+      internalID: 3232412852849202192
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spr_dig_strip13 1_1
+      rect:
+        serializedVersion: 2
+        x: 133
+        y: 88
+        width: 23
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bafa2f705948832a0800000000000000
+      internalID: -6757505465251090517
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spr_dig_strip13 1_2
+      rect:
+        serializedVersion: 2
+        x: 230
+        y: 87
+        width: 27
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b7e8d4591d8c82170800000000000000
+      internalID: 8153987927832891003
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spr_dig_strip13 1_3
+      rect:
+        serializedVersion: 2
+        x: 327
+        y: 87
+        width: 28
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2322be04262385970800000000000000
+      internalID: 8743794074117153330
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spr_dig_strip13 1_4
+      rect:
+        serializedVersion: 2
+        x: 423
+        y: 87
+        width: 29
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 07962728f96241c20800000000000000
+      internalID: 3176206103733234032
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spr_dig_strip13 1_5
+      rect:
+        serializedVersion: 2
+        x: 518
+        y: 87
+        width: 30
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0e5ace09ae758c2d0800000000000000
+      internalID: -3258257665437162016
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spr_dig_strip13 1_6
+      rect:
+        serializedVersion: 2
+        x: 614
+        y: 87
+        width: 30
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a1941583353ea43b0800000000000000
+      internalID: -5527355646077220582
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spr_dig_strip13 1_7
+      rect:
+        serializedVersion: 2
+        x: 709
+        y: 88
+        width: 29
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a524b6d1ae4ce4dc0800000000000000
+      internalID: -3652765737955933606
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spr_dig_strip13 1_8
+      rect:
+        serializedVersion: 2
+        x: 804
+        y: 88
+        width: 30
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 24a62723779fa81a0800000000000000
+      internalID: -6806353596474299838
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spr_dig_strip13 1_9
+      rect:
+        serializedVersion: 2
+        x: 899
+        y: 88
+        width: 25
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e43b53e27efe74560800000000000000
+      internalID: 7298065497368933198
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spr_dig_strip13 1_10
+      rect:
+        serializedVersion: 2
+        x: 34
+        y: 42
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5f57929fd4d0ec970800000000000000
+      internalID: 8776967352335562229
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spr_dig_strip13 1_11
+      rect:
+        serializedVersion: 2
+        x: 35
+        y: 24
+        width: 23
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6b4c46af59da6f070800000000000000
+      internalID: 8139884236181390518
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spr_dig_strip13 1_12
+      rect:
+        serializedVersion: 2
+        x: 129
+        y: 24
+        width: 30
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ed8b9cbeb75952e70800000000000000
+      internalID: 9089835782386596062
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spr_dig_strip13 1_13
+      rect:
+        serializedVersion: 2
+        x: 225
+        y: 24
+        width: 31
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2c36720b20fdf21c0800000000000000
+      internalID: -4526153897845759038
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      spr_dig_strip13 1_0: 3232412852849202192
+      spr_dig_strip13 1_1: -6757505465251090517
+      spr_dig_strip13 1_10: 8776967352335562229
+      spr_dig_strip13 1_11: 8139884236181390518
+      spr_dig_strip13 1_12: 9089835782386596062
+      spr_dig_strip13 1_13: -4526153897845759038
+      spr_dig_strip13 1_2: 8153987927832891003
+      spr_dig_strip13 1_3: 8743794074117153330
+      spr_dig_strip13 1_4: 3176206103733234032
+      spr_dig_strip13 1_5: -3258257665437162016
+      spr_dig_strip13 1_6: -5527355646077220582
+      spr_dig_strip13 1_7: -3652765737955933606
+      spr_dig_strip13 1_8: -6806353596474299838
+      spr_dig_strip13 1_9: 7298065497368933198
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

@@ -1,0 +1,520 @@
+fileFormatVersion: 2
+guid: 650af17069214db499d08e84a1d09c80
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -2942442428368003918
+    second: spr_casting_strip15 2_0
+  - first:
+      213: -3857383085339622375
+    second: spr_casting_strip15 2_1
+  - first:
+      213: -7183181407053735617
+    second: spr_casting_strip15 2_2
+  - first:
+      213: 217943049867086934
+    second: spr_casting_strip15 2_3
+  - first:
+      213: -7993684634460166817
+    second: spr_casting_strip15 2_4
+  - first:
+      213: -7234515444283475602
+    second: spr_casting_strip15 2_5
+  - first:
+      213: -3475219339133085200
+    second: spr_casting_strip15 2_6
+  - first:
+      213: 1815785273769287460
+    second: spr_casting_strip15 2_7
+  - first:
+      213: -2059673304294888276
+    second: spr_casting_strip15 2_8
+  - first:
+      213: 4550401854828793307
+    second: spr_casting_strip15 2_9
+  - first:
+      213: 6834916699935078448
+    second: spr_casting_strip15 2_10
+  - first:
+      213: -2266628207781454668
+    second: spr_casting_strip15 2_11
+  - first:
+      213: 4011941021079749670
+    second: spr_casting_strip15 2_12
+  - first:
+      213: -3937824324826805661
+    second: spr_casting_strip15 2_13
+  - first:
+      213: 4251023976848865011
+    second: spr_casting_strip15 2_14
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: spr_casting_strip15 2_0
+      rect:
+        serializedVersion: 2
+        x: 41
+        y: 22
+        width: 27
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2bc561d73385a27d0800000000000000
+      internalID: -2942442428368003918
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spr_casting_strip15 2_1
+      rect:
+        serializedVersion: 2
+        x: 135
+        y: 23
+        width: 22
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9144bbb6582d77ac0800000000000000
+      internalID: -3857383085339622375
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spr_casting_strip15 2_2
+      rect:
+        serializedVersion: 2
+        x: 227
+        y: 23
+        width: 19
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f391f538196305c90800000000000000
+      internalID: -7183181407053735617
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spr_casting_strip15 2_3
+      rect:
+        serializedVersion: 2
+        x: 320
+        y: 24
+        width: 22
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 65cc7949c0a460300800000000000000
+      internalID: 217943049867086934
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spr_casting_strip15 2_4
+      rect:
+        serializedVersion: 2
+        x: 413
+        y: 24
+        width: 25
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f55e0846d2ab01190800000000000000
+      internalID: -7993684634460166817
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spr_casting_strip15 2_5
+      rect:
+        serializedVersion: 2
+        x: 515
+        y: 24
+        width: 23
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e69f7659886d99b90800000000000000
+      internalID: -7234515444283475602
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spr_casting_strip15 2_6
+      rect:
+        serializedVersion: 2
+        x: 617
+        y: 24
+        width: 29
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0f9976e6c6a85cfc0800000000000000
+      internalID: -3475219339133085200
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spr_casting_strip15 2_7
+      rect:
+        serializedVersion: 2
+        x: 714
+        y: 22
+        width: 30
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 42f57670617f23910800000000000000
+      internalID: 1815785273769287460
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spr_casting_strip15 2_8
+      rect:
+        serializedVersion: 2
+        x: 809
+        y: 23
+        width: 29
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cace528da029a63e0800000000000000
+      internalID: -2059673304294888276
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spr_casting_strip15 2_9
+      rect:
+        serializedVersion: 2
+        x: 905
+        y: 23
+        width: 28
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bdd495eb066462f30800000000000000
+      internalID: 4550401854828793307
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spr_casting_strip15 2_10
+      rect:
+        serializedVersion: 2
+        x: 1001
+        y: 22
+        width: 27
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 038f30196808ade50800000000000000
+      internalID: 6834916699935078448
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spr_casting_strip15 2_11
+      rect:
+        serializedVersion: 2
+        x: 1097
+        y: 22
+        width: 27
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4bc5e4577a15b80e0800000000000000
+      internalID: -2266628207781454668
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spr_casting_strip15 2_12
+      rect:
+        serializedVersion: 2
+        x: 1193
+        y: 22
+        width: 27
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 624c64d3a174da730800000000000000
+      internalID: 4011941021079749670
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spr_casting_strip15 2_13
+      rect:
+        serializedVersion: 2
+        x: 1289
+        y: 22
+        width: 27
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 36a4ecad3a90a59c0800000000000000
+      internalID: -3937824324826805661
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spr_casting_strip15 2_14
+      rect:
+        serializedVersion: 2
+        x: 1385
+        y: 22
+        width: 27
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3f6beb7b8cbaefa30800000000000000
+      internalID: 4251023976848865011
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      spr_casting_strip15 2_0: -2942442428368003918
+      spr_casting_strip15 2_1: -3857383085339622375
+      spr_casting_strip15 2_10: 6834916699935078448
+      spr_casting_strip15 2_11: -2266628207781454668
+      spr_casting_strip15 2_12: 4011941021079749670
+      spr_casting_strip15 2_13: -3937824324826805661
+      spr_casting_strip15 2_14: 4251023976848865011
+      spr_casting_strip15 2_2: -7183181407053735617
+      spr_casting_strip15 2_3: 217943049867086934
+      spr_casting_strip15 2_4: -7993684634460166817
+      spr_casting_strip15 2_5: -7234515444283475602
+      spr_casting_strip15 2_6: -3475219339133085200
+      spr_casting_strip15 2_7: 1815785273769287460
+      spr_casting_strip15 2_8: -2059673304294888276
+      spr_casting_strip15 2_9: 4550401854828793307
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

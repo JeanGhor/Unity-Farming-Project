@@ -1,0 +1,962 @@
+fileFormatVersion: 2
+guid: 9a7ff02d02beb974f883e5c626032e83
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -6835405508984759201
+    second: spr_hammering_strip23 1_0
+  - first:
+      213: -5017785305229892946
+    second: spr_hammering_strip23 1_1
+  - first:
+      213: -5028164927014975665
+    second: spr_hammering_strip23 1_2
+  - first:
+      213: -1288610633933324900
+    second: spr_hammering_strip23 1_3
+  - first:
+      213: 2373179392368365738
+    second: spr_hammering_strip23 1_4
+  - first:
+      213: 8588348159628978189
+    second: spr_hammering_strip23 1_5
+  - first:
+      213: 7151350473378050252
+    second: spr_hammering_strip23 1_6
+  - first:
+      213: -8346721004459623230
+    second: spr_hammering_strip23 1_7
+  - first:
+      213: 2139537006639843231
+    second: spr_hammering_strip23 1_8
+  - first:
+      213: -4806781588576703914
+    second: spr_hammering_strip23 1_9
+  - first:
+      213: -567164653492598063
+    second: spr_hammering_strip23 1_10
+  - first:
+      213: 1040907770138480860
+    second: spr_hammering_strip23 1_11
+  - first:
+      213: -2330982129667629957
+    second: spr_hammering_strip23 1_12
+  - first:
+      213: -2110290661970302748
+    second: spr_hammering_strip23 1_13
+  - first:
+      213: 1642633188834791564
+    second: spr_hammering_strip23 1_14
+  - first:
+      213: -2891062173030680234
+    second: spr_hammering_strip23 1_15
+  - first:
+      213: 1884934423141217268
+    second: spr_hammering_strip23 1_16
+  - first:
+      213: 8964054783943215951
+    second: spr_hammering_strip23 1_17
+  - first:
+      213: -9199165926600781938
+    second: spr_hammering_strip23 1_18
+  - first:
+      213: -2723457801116712368
+    second: spr_hammering_strip23 1_19
+  - first:
+      213: -3236226718215805845
+    second: spr_hammering_strip23 1_20
+  - first:
+      213: 5936057583696358761
+    second: spr_hammering_strip23 1_21
+  - first:
+      213: -7737318363873019250
+    second: spr_hammering_strip23 1_22
+  - first:
+      213: 4669465790703557063
+    second: spr_hammering_strip23 1_23
+  - first:
+      213: -4788852290731178631
+    second: spr_hammering_strip23 1_24
+  - first:
+      213: 467112949401490035
+    second: spr_hammering_strip23 1_25
+  - first:
+      213: -4272755593022030423
+    second: spr_hammering_strip23 1_26
+  - first:
+      213: 983460720817433831
+    second: spr_hammering_strip23 1_27
+  - first:
+      213: -6464988676253242675
+    second: spr_hammering_strip23 1_28
+  - first:
+      213: -6373780069894297464
+    second: spr_hammering_strip23 1_29
+  - first:
+      213: -3736741229443001554
+    second: spr_hammering_strip23 1_30
+  - first:
+      213: -7514751571338630453
+    second: spr_hammering_strip23 1_31
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: spr_hammering_strip23 1_0
+      rect:
+        serializedVersion: 2
+        x: 1466
+        y: 24
+        width: 29
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f5c1735b7e2c321a0800000000000000
+      internalID: -6835405508984759201
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spr_hammering_strip23 1_1
+      rect:
+        serializedVersion: 2
+        x: 1570
+        y: 24
+        width: 24
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ea2e89aa9de3d5ab0800000000000000
+      internalID: -5017785305229892946
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spr_hammering_strip23 1_2
+      rect:
+        serializedVersion: 2
+        x: 1665
+        y: 43
+        width: 8
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f47c135a3ae583ab0800000000000000
+      internalID: -5028164927014975665
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spr_hammering_strip23 1_3
+      rect:
+        serializedVersion: 2
+        x: 1675
+        y: 24
+        width: 34
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c9dfc9ea47fed1ee0800000000000000
+      internalID: -1288610633933324900
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spr_hammering_strip23 1_4
+      rect:
+        serializedVersion: 2
+        x: 1784
+        y: 45
+        width: 7
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: aa0d46e651a3fe020800000000000000
+      internalID: 2373179392368365738
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spr_hammering_strip23 1_5
+      rect:
+        serializedVersion: 2
+        x: 1784
+        y: 24
+        width: 29
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d08a01ee521ff2770800000000000000
+      internalID: 8588348159628978189
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spr_hammering_strip23 1_6
+      rect:
+        serializedVersion: 2
+        x: 1880
+        y: 24
+        width: 33
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cc03506bd53be3360800000000000000
+      internalID: 7151350473378050252
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spr_hammering_strip23 1_7
+      rect:
+        serializedVersion: 2
+        x: 1993
+        y: 36
+        width: 19
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2cc74e1287d7a2c80800000000000000
+      internalID: -8346721004459623230
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spr_hammering_strip23 1_8
+      rect:
+        serializedVersion: 2
+        x: 2071
+        y: 24
+        width: 38
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f970290629921bd10800000000000000
+      internalID: 2139537006639843231
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spr_hammering_strip23 1_9
+      rect:
+        serializedVersion: 2
+        x: 41
+        y: 24
+        width: 32
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 65a6ff3dc91ea4db0800000000000000
+      internalID: -4806781588576703914
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spr_hammering_strip23 1_10
+      rect:
+        serializedVersion: 2
+        x: 137
+        y: 24
+        width: 31
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1da8a6ba0c60128f0800000000000000
+      internalID: -567164653492598063
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spr_hammering_strip23 1_11
+      rect:
+        serializedVersion: 2
+        x: 233
+        y: 24
+        width: 29
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cd05c0b1a1c027e00800000000000000
+      internalID: 1040907770138480860
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spr_hammering_strip23 1_12
+      rect:
+        serializedVersion: 2
+        x: 329
+        y: 24
+        width: 20
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b7c90676a10b6afd0800000000000000
+      internalID: -2330982129667629957
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spr_hammering_strip23 1_13
+      rect:
+        serializedVersion: 2
+        x: 423
+        y: 24
+        width: 17
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4e8af60e2ddb6b2e0800000000000000
+      internalID: -2110290661970302748
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spr_hammering_strip23 1_14
+      rect:
+        serializedVersion: 2
+        x: 508
+        y: 24
+        width: 27
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c80d3c4ae2ecbc610800000000000000
+      internalID: 1642633188834791564
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spr_hammering_strip23 1_15
+      rect:
+        serializedVersion: 2
+        x: 599
+        y: 24
+        width: 31
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 659ffe86542e0e7d0800000000000000
+      internalID: -2891062173030680234
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spr_hammering_strip23 1_16
+      rect:
+        serializedVersion: 2
+        x: 693
+        y: 24
+        width: 32
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4f3fc3cfed1a82a10800000000000000
+      internalID: 1884934423141217268
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spr_hammering_strip23 1_17
+      rect:
+        serializedVersion: 2
+        x: 788
+        y: 24
+        width: 34
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f4b83181558b66c70800000000000000
+      internalID: 8964054783943215951
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spr_hammering_strip23 1_18
+      rect:
+        serializedVersion: 2
+        x: 885
+        y: 24
+        width: 34
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e8f451b345ff55080800000000000000
+      internalID: -9199165926600781938
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spr_hammering_strip23 1_19
+      rect:
+        serializedVersion: 2
+        x: 983
+        y: 24
+        width: 32
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0520ca33f85543ad0800000000000000
+      internalID: -2723457801116712368
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spr_hammering_strip23 1_20
+      rect:
+        serializedVersion: 2
+        x: 1080
+        y: 24
+        width: 31
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b646e1032fc9613d0800000000000000
+      internalID: -3236226718215805845
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spr_hammering_strip23 1_21
+      rect:
+        serializedVersion: 2
+        x: 1176
+        y: 24
+        width: 31
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 96d2c7afbec116250800000000000000
+      internalID: 5936057583696358761
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spr_hammering_strip23 1_22
+      rect:
+        serializedVersion: 2
+        x: 1272
+        y: 24
+        width: 32
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e8afd3f21f58f9490800000000000000
+      internalID: -7737318363873019250
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spr_hammering_strip23 1_23
+      rect:
+        serializedVersion: 2
+        x: 1368
+        y: 24
+        width: 32
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7c959b195664dc040800000000000000
+      internalID: 4669465790703557063
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spr_hammering_strip23 1_24
+      rect:
+        serializedVersion: 2
+        x: 1565
+        y: 35
+        width: 6
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9750729c6349a8db0800000000000000
+      internalID: -4788852290731178631
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spr_hammering_strip23 1_25
+      rect:
+        serializedVersion: 2
+        x: 1769
+        y: 24
+        width: 18
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3729f0ba0c48b7600800000000000000
+      internalID: 467112949401490035
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spr_hammering_strip23 1_26
+      rect:
+        serializedVersion: 2
+        x: 1864
+        y: 24
+        width: 17
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9adbbd91d6f14b4c0800000000000000
+      internalID: -4272755593022030423
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spr_hammering_strip23 1_27
+      rect:
+        serializedVersion: 2
+        x: 1960
+        y: 24
+        width: 17
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7ec6fd2a054f5ad00800000000000000
+      internalID: 983460720817433831
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spr_hammering_strip23 1_28
+      rect:
+        serializedVersion: 2
+        x: 2056
+        y: 24
+        width: 17
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: dcaa00b4d0fb746a0800000000000000
+      internalID: -6464988676253242675
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spr_hammering_strip23 1_29
+      rect:
+        serializedVersion: 2
+        x: 2153
+        y: 24
+        width: 15
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8886c71dbc8cb87a0800000000000000
+      internalID: -6373780069894297464
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spr_hammering_strip23 1_30
+      rect:
+        serializedVersion: 2
+        x: 2166
+        y: 24
+        width: 21
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e235e7166ad642cc0800000000000000
+      internalID: -3736741229443001554
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spr_hammering_strip23 1_31
+      rect:
+        serializedVersion: 2
+        x: 1976
+        y: 24
+        width: 31
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bca6d0fb24d36b790800000000000000
+      internalID: -7514751571338630453
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      spr_hammering_strip23 1_0: -6835405508984759201
+      spr_hammering_strip23 1_1: -5017785305229892946
+      spr_hammering_strip23 1_10: -567164653492598063
+      spr_hammering_strip23 1_11: 1040907770138480860
+      spr_hammering_strip23 1_12: -2330982129667629957
+      spr_hammering_strip23 1_13: -2110290661970302748
+      spr_hammering_strip23 1_14: 1642633188834791564
+      spr_hammering_strip23 1_15: -2891062173030680234
+      spr_hammering_strip23 1_16: 1884934423141217268
+      spr_hammering_strip23 1_17: 8964054783943215951
+      spr_hammering_strip23 1_18: -9199165926600781938
+      spr_hammering_strip23 1_19: -2723457801116712368
+      spr_hammering_strip23 1_2: -5028164927014975665
+      spr_hammering_strip23 1_20: -3236226718215805845
+      spr_hammering_strip23 1_21: 5936057583696358761
+      spr_hammering_strip23 1_22: -7737318363873019250
+      spr_hammering_strip23 1_23: 4669465790703557063
+      spr_hammering_strip23 1_24: -4788852290731178631
+      spr_hammering_strip23 1_25: 467112949401490035
+      spr_hammering_strip23 1_26: -4272755593022030423
+      spr_hammering_strip23 1_27: 983460720817433831
+      spr_hammering_strip23 1_28: -6464988676253242675
+      spr_hammering_strip23 1_29: -6373780069894297464
+      spr_hammering_strip23 1_3: -1288610633933324900
+      spr_hammering_strip23 1_30: -3736741229443001554
+      spr_hammering_strip23 1_31: -7514751571338630453
+      spr_hammering_strip23 1_4: 2373179392368365738
+      spr_hammering_strip23 1_5: 8588348159628978189
+      spr_hammering_strip23 1_6: 7151350473378050252
+      spr_hammering_strip23 1_7: -8346721004459623230
+      spr_hammering_strip23 1_8: 2139537006639843231
+      spr_hammering_strip23 1_9: -4806781588576703914
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
