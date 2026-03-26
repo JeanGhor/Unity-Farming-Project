@@ -55,7 +55,10 @@ public class TimeSystem : MonoBehaviour
                 _days++;
             }
         }
-
+        if (_hours%6==0 && _minutes == 0)
+        {
+            GameEventSystem.timeChanged.Invoke(_hours);
+        }
         UpdateTimeUI();
     }
 
