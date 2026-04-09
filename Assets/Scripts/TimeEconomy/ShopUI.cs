@@ -65,7 +65,7 @@ public class ShopUI : MonoBehaviour
         UpdateStatusText();
     }
 
-    private void OnTimeChanged(int hour)
+    private void OnTimeChanged(int day, int hour, int minute)
     {
         if (hour == 0)
         {

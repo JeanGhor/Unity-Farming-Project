@@ -1,12 +1,9 @@
 using UnityEngine;
 using UnityEngine.UI;
-using UnityEngine.Events;
 
 public class ChangeOfTimeHandler : MonoBehaviour
 {
-    [SerializeField] private Image background;
-
-    private enum TimePhase
+    public enum TimePhase
     {
         Morning,
         Afternoon,
@@ -14,7 +11,10 @@ public class ChangeOfTimeHandler : MonoBehaviour
         Night
     }
 
-    private TimePhase _currentPhase;
+    [SerializeField] private Image backgroundImage;
+
+    private TimePhase currentPhase;
+    private bool hasInitialized = false;
 
     private void OnEnable()
     {
@@ -26,57 +26,54 @@ public class ChangeOfTimeHandler : MonoBehaviour
         GameEventSystem.timeChanged.RemoveListener(OnTimeChanged);
     }
 
-    private void Start()
+    private void OnTimeChanged(int day, int hour, int minute)
     {
-        if (background != null)
-        {
-            background.color = new Color(0.05f, 0.05f, 0.2f);
-        }
-    }
+        TimePhase newPhase = GetPhase(hour, minute);
 
-    private void OnTimeChanged(int hour)
-    {
-        TimePhase newPhase = GetPhase(hour);
-
-        if (newPhase != _currentPhase)
+        if (!hasInitialized || newPhase != currentPhase)
         {
-            _currentPhase = newPhase;
+            currentPhase = newPhase;
+            hasInitialized = true;
             ApplyPhaseChange(newPhase);
         }
     }
 
-    private TimePhase GetPhase(int hour)
+    private TimePhase GetPhase(int hour, int minute)
     {
-        Debug.Log("Hour: " + hour);
+        int totalMinutes = hour * 60 + minute;
 
-        if (hour >= 6 && hour < 12) return TimePhase.Morning;
-        if (hour >= 12 && hour < 18) return TimePhase.Afternoon;
-        if (hour >= 18 && hour < 21) return TimePhase.Evening;
+        if (totalMinutes >= 360 && totalMinutes < 720)   // 06:00 -> 11:59
+            return TimePhase.Morning;
+
+        if (totalMinutes >= 720 && totalMinutes < 1020)  // 12:00 -> 16:59
+            return TimePhase.Afternoon;
+
+        if (totalMinutes >= 1020 && totalMinutes < 1260) // 17:00 -> 20:59
+            return TimePhase.Evening;
+
         return TimePhase.Night;
     }
 
     private void ApplyPhaseChange(TimePhase phase)
     {
-        Debug.Log(phase.ToString());
-
-        if (background == null) return;
+        if (backgroundImage == null) return;
 
         switch (phase)
         {
             case TimePhase.Morning:
-                background.color = new Color(0.6f, 0.8f, 1f);
+                backgroundImage.color = new Color(0.8f, 0.9f, 1f);
                 break;
 
             case TimePhase.Afternoon:
-                background.color = new Color(0.4f, 0.7f, 1f);
+                backgroundImage.color = new Color(1f, 1f, 0.85f);
                 break;
 
             case TimePhase.Evening:
-                background.color = new Color(1f, 0.5f, 0.3f);
+                backgroundImage.color = new Color(1f, 0.7f, 0.4f);
                 break;
 
             case TimePhase.Night:
-                background.color = new Color(0.05f, 0.05f, 0.2f);
+                backgroundImage.color = new Color(0.05f, 0.05f, 0.2f);
                 break;
         }
     }

@@ -1,72 +1,66 @@
 using UnityEngine;
-using TMPro;
 
 public class TimeSystem : MonoBehaviour
 {
-    [Header("Time Speed")]
-    [SerializeField] private float secondsPerGameMinute = 1f;
+    [Header("Time Settings")]
+    [SerializeField] private float realSecondsPerGameMinute = 1f;
 
     [Header("Start Time")]
-    [SerializeField] private int _startHours = 8;
-    [SerializeField] private int _startMinutes = 0;
+    [SerializeField] private int startDay = 1;
+    [SerializeField] private int startHour = 8;
+    [SerializeField] private int startMinute = 0;
 
-    [Header("Current Time")]
-    [SerializeField] private int _hours;
-    [SerializeField] private int _minutes;
-    [SerializeField] private int _days;
+    private float timer;
 
-    [Header("UI")]
-    [SerializeField] private TextMeshProUGUI timeText;
+    private int day;
+    private int hour;
+    private int minute;
 
-    private float _timer;
+    public int Day => day;
+    public int Hour => hour;
+    public int Minute => minute;
 
-    void Start()
+    private void Start()
     {
-        _hours = _startHours;
-        _minutes = _startMinutes;
-        _days = 1;
+        day = startDay;
+        hour = startHour;
+        minute = startMinute;
 
-        UpdateTimeUI();
+        BroadcastTime();
     }
 
-    void Update()
+    private void Update()
     {
-        _timer += Time.deltaTime;
+        timer += Time.deltaTime;
 
-        if (_timer >= secondsPerGameMinute)
+        if (timer >= realSecondsPerGameMinute)
         {
-            _timer -= secondsPerGameMinute;
+            timer -= realSecondsPerGameMinute;
             AdvanceMinute();
         }
     }
 
     private void AdvanceMinute()
     {
-        _minutes++;
+        minute++;
 
-        if (_minutes >= 60)
+        if (minute >= 60)
         {
-            _minutes = 0;
-            _hours++;
+            minute = 0;
+            hour++;
+        }
 
-            if (_hours >= 24)
-            {
-                _hours = 0;
-                _days++;
-            }
-        }
-        if (_hours%6==0 && _minutes == 0)
+        if (hour >= 24)
         {
-            GameEventSystem.timeChanged.Invoke(_hours);
+            hour = 0;
+            day++;
         }
-        UpdateTimeUI();
+
+        BroadcastTime();
     }
 
-    private void UpdateTimeUI()
+    private void BroadcastTime()
     {
-        if (timeText != null)
-        {
-            timeText.text = $"Day {_days} - {_hours:00}:{_minutes:00}";
-        }
+        GameEventSystem.timeChanged.Invoke(day, hour, minute);
     }
 }

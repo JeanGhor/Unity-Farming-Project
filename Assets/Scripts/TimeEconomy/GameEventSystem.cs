@@ -1,6 +1,8 @@
-using UnityEngine;
 using UnityEngine.Events;
+
+[System.Serializable]
+public class TimeChangedEvent : UnityEvent<int, int, int> { }
 public static class GameEventSystem
 {
-    public static UnityEvent<int> timeChanged = new UnityEvent<int>();
+    public static TimeChangedEvent timeChanged = new TimeChangedEvent();
 }
