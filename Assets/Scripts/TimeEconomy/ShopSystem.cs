@@ -1,18 +1,14 @@
 using UnityEngine;
 using System.Collections.Generic;
-
 public class ShopSystem : MonoBehaviour
 {
     public List<ShopItem> items = new List<ShopItem>();
-    public int playerMoney = 100;
-
     public void BuyItem(int index)
     {
         ShopItem item = items[index];
-
-        if (playerMoney >= item.price)
+        if (MoneySystem.Instance.SpendMoney(item.price))
         {
-            playerMoney -= item.price;
+            InventorySystem.Instance.AddItem(item.itemName, 1);
             Debug.Log("Bought: " + item.itemName);
         }
         else

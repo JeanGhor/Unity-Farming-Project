@@ -1283,7 +1283,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::MoneySystem
   _startingMoney: 500
-  _currentMoney: 0
+  _currentMoney: 500
 --- !u!1 &705645519
 GameObject:
   m_ObjectHideFlags: 0
@@ -2170,7 +2170,6 @@ MonoBehaviour:
     price: 3
   - itemName: Fertilizer
     price: 3
-  playerMoney: 100
 --- !u!1 &1657388960
 GameObject:
   m_ObjectHideFlags: 0

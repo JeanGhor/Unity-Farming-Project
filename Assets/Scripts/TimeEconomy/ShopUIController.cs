@@ -38,6 +38,6 @@ public class ShopUIController : MonoBehaviour
     public void UpdateMoneyUI()
     {
         if (moneyText != null)
-            moneyText.text = "Money: $" + shopSystem.playerMoney;
+            moneyText.text = "Money: $" + MoneySystem.Instance.CurrentMoney;
     }
 }
