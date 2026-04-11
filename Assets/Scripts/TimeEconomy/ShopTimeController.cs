@@ -20,7 +20,7 @@ public class ShopTimeController : MonoBehaviour
         GameEventSystem.timeChanged.RemoveListener(OnTimeChanged);
     }
 
-    private void OnTimeChanged(int day, int hour, int minute)
+    private void OnTimeChanged( int hour, int minute,int day)
     {
         bool shouldBeOpen = IsWithinOpenHours(hour, minute);
 

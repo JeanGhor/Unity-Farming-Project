@@ -1,32 +1,43 @@
 using UnityEngine;
 
+public enum Season
+{
+    Spring,
+    Summer,
+    Fall,
+    Winter
+}
+
 public class TimeSystem : MonoBehaviour
 {
+    public static TimeSystem Instance;
+
     [Header("Time Settings")]
     [SerializeField] private float realSecondsPerGameMinute = 1f;
 
-    [Header("Start Time")]
-    [SerializeField] private int startDay = 1;
-    [SerializeField] private int startHour = 8;
-    [SerializeField] private int startMinute = 0;
+    [Header("Current Time")]
+    [SerializeField] private int hour = 6;
+    [SerializeField] private int minute = 0;
+    [SerializeField] private int dayNumber = 1;
+    [SerializeField] private Season currentSeason = Season.Spring;
 
     private float timer;
 
-    private int day;
-    private int hour;
-    private int minute;
-
-    public int Day => day;
     public int Hour => hour;
     public int Minute => minute;
+    public int DayNumber => dayNumber;
+    public Season CurrentSeason => currentSeason;
 
-    private void Start()
+    private void Awake()
     {
-        day = startDay;
-        hour = startHour;
-        minute = startMinute;
-
-        BroadcastTime();
+        if (Instance == null)
+        {
+            Instance = this;
+        }
+        else
+        {
+            Destroy(gameObject);
+        }
     }
 
     private void Update()
@@ -53,14 +64,37 @@ public class TimeSystem : MonoBehaviour
         if (hour >= 24)
         {
             hour = 0;
-            day++;
+            StartNewDay();
         }
 
-        BroadcastTime();
+        GameEventSystem.timeChanged.Invoke(hour, minute, dayNumber);
     }
 
-    private void BroadcastTime()
+    private void StartNewDay()
     {
-        GameEventSystem.timeChanged.Invoke(day, hour, minute);
+        dayNumber++;
+        UpdateSeason();
+
+        GameEventSystem.newDayStarted.Invoke();
+        Debug.Log("New Day Started: Day " + dayNumber + " - " + currentSeason);
+    }
+
+    private void UpdateSeason()
+    {
+        int seasonIndex = ((dayNumber - 1) / 30) % 4;
+        currentSeason = (Season)seasonIndex;
+    }
+
+    public void LoadTime(int loadedHour, int loadedMinute, int loadedDayNumber, Season loadedSeason)
+    {
+        hour = loadedHour;
+        minute = loadedMinute;
+        dayNumber = loadedDayNumber;
+        currentSeason = loadedSeason;
+
+        GameEventSystem.timeChanged.Invoke(hour, minute, dayNumber);
+        GameEventSystem.newDayStarted.Invoke();
+
+        Debug.Log("Time loaded: Day " + dayNumber + " | " + currentSeason + " | " + hour.ToString("00") + ":" + minute.ToString("00"));
     }
 }

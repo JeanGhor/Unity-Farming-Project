@@ -23,7 +23,7 @@ public class TimeDisplayUI : MonoBehaviour
         }
     }
 
-    private void UpdateTimeDisplay(int day, int hour, int minute)
+    private void UpdateTimeDisplay(int hour, int minute,int day)
     {
         if (timeText == null) return;
 
