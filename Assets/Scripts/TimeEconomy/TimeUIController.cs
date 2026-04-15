@@ -27,6 +27,7 @@ public class TimeDisplayUI : MonoBehaviour
     {
         if (timeText == null) return;
 
-        timeText.text = $"Day {day} - {hour:D2}:{minute:D2}";
+        Season season = TimeSystem.Instance.CurrentSeason;
+        timeText.text = $"Day {day} - {hour:D2}:{minute:D2} - {season}";
     }
 }
