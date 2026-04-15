@@ -9,4 +9,5 @@ public class SaveData
     public int DayNumber;
     public Season Season;
     public List<InventoryItemData> inventory = new List<InventoryItemData>();
+    public List<int> ShopStock = new List<int>();
 }

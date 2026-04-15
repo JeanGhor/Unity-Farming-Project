@@ -7,9 +7,10 @@ public class ShopUI : MonoBehaviour
     [SerializeField] private GameObject shopPanel;
     [SerializeField] private TextMeshProUGUI shopStatusText;
     [SerializeField] private Button closeButton;
+    [SerializeField] private ShopTimeController shopTimeController;
+
 
     private bool _isShopOpen = false;
-    private bool _isShopAvailable = true;
 
     private void OnEnable()
     {
@@ -21,6 +22,7 @@ public class ShopUI : MonoBehaviour
         GameEventSystem.timeChanged.RemoveListener(OnTimeChanged);
     }
 
+    
     private void Start()
     {
         if (shopPanel != null)
@@ -40,7 +42,7 @@ public class ShopUI : MonoBehaviour
 
     public void ToggleShop()
     {
-        if (!_isShopAvailable)
+        if (shopTimeController != null && !shopTimeController.IsOpen)
         {
             Debug.Log("Shop is closed right now.");
             UpdateStatusText();
@@ -67,17 +69,9 @@ public class ShopUI : MonoBehaviour
 
     private void OnTimeChanged(int hour, int minute, int day)
     {
-        if (hour == 0)
+        if (shopTimeController != null && !shopTimeController.IsOpen && _isShopOpen)
         {
-            _isShopAvailable = false;
-            _isShopOpen = false;
-
-            if (shopPanel != null)
-                shopPanel.SetActive(false);
-        }
-        else
-        {
-            _isShopAvailable = true;
+            CloseShop();
         }
 
         UpdateStatusText();
@@ -87,8 +81,8 @@ public class ShopUI : MonoBehaviour
     {
         if (shopStatusText == null) return;
 
-        if (!_isShopAvailable)
-            shopStatusText.text = "Shop is closed (Night)";
+        if (shopTimeController != null && !shopTimeController.IsOpen)
+            shopStatusText.text = "Shop is closed";
         else if (_isShopOpen)
             shopStatusText.text = "Shop is open";
         else

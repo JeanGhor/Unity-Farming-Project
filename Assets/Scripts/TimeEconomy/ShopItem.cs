@@ -5,4 +5,6 @@ public class ShopItem
 {
     public string itemName;
     public int price;
+    public int sellPrice;
+    public int stock;
 }

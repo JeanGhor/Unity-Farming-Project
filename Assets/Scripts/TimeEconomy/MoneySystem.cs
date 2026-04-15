@@ -20,6 +20,7 @@ public class MoneySystem : MonoBehaviour
     public void AddMoney(int amount)
     {
         _currentMoney += amount;
+        GameEventSystem.moneyChanged.Invoke();
         Debug.Log("Money added: " + amount + " | Total: " + _currentMoney);
     }
     public bool SpendMoney(int amount)
@@ -29,12 +30,14 @@ public class MoneySystem : MonoBehaviour
             return false;
         }
         _currentMoney -= amount;
+        GameEventSystem.moneyChanged.Invoke();
         Debug.Log("Money spent: " + amount + " | Total: " + _currentMoney);
         return true;
     }
     public void LoadMoney(int loadedMoney)
     {
         _currentMoney = loadedMoney;
+        GameEventSystem.moneyChanged.Invoke();
         Debug.Log("Money loaded: " + _currentMoney);
     }
 }

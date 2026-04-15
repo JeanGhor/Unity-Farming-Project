@@ -6,4 +6,5 @@ public static class GameEventSystem
 {
     public static TimeChangedEvent timeChanged = new TimeChangedEvent();
     public static UnityEvent newDayStarted = new UnityEvent();
+    public static UnityEvent moneyChanged = new UnityEvent();
 }

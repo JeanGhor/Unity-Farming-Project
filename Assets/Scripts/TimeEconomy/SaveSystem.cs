@@ -33,6 +33,7 @@ public class SaveSystem : MonoBehaviour
         data.Season = TimeSystem.Instance.CurrentSeason;
 
         data.inventory = InventorySystem.Instance.GetInventoryData();
+        data.ShopStock = ShopSystem.Instance.GetStockData();
 
         string json = JsonUtility.ToJson(data, true);
         File.WriteAllText(_savePath, json);
@@ -54,6 +55,7 @@ public class SaveSystem : MonoBehaviour
         MoneySystem.Instance.LoadMoney(data.Money);
         TimeSystem.Instance.LoadTime(data.Hour, data.Minute, data.DayNumber, data.Season);
         InventorySystem.Instance.LoadInventoryData(data.inventory);
+        ShopSystem.Instance.LoadStockData(data.ShopStock);
 
         Debug.Log("Game Loaded Successfully");
     }
